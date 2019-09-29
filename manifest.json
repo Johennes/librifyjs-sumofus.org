@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "LibrifyJS: sumofus.org",
+  "version": "0.1.0",
+  "description": "Allows to sign petitions on sumofus.org with GNU LibreJS running",
+  "content_scripts": [
+    {
+      "matches": ["*://www.sumofus.org/"],
+      "js": ["home.js"]
+    }, {
+      "matches": ["*://www.sumofus.org/campaigns/"],
+      "js": ["campaigns.js"]
+    }, {
+      "matches": ["*://actions.sumofus.org/a/*"],
+      "js": ["campaign.js"]
+    }
+  ],
+  "permissions": [
+    "*://actions.sumofus.org/api/*",
+    "webRequest"
+  ]
+}
