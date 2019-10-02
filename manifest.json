@@ -18,5 +18,10 @@
   "permissions": [
     "*://actions.sumofus.org/api/*",
     "webRequest"
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{50986b74-eb3b-484c-86ee-f49146b4a07d}"
+    }
+  }
 }
