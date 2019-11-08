@@ -1,7 +1,17 @@
 # LibrifyJS: sumofus.org
 
-A Firefox extension that allows to sign petitions on sumofus.org in
-coordination with GNU LibreJS.
+A Firefox extension for replacing the JavaScript blocked by GNU LibreJS on sumofus.org
+with free / libre code.
+
+## Status
+
+### What Works
+
+- Petition signing form
+
+### What Doesn't Work
+
+- Probably anything else
 
 ## License
 

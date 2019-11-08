@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "LibrifyJS: sumofus.org",
   "version": "0.1.2",
-  "description": "Allows to sign petitions on sumofus.org with GNU LibreJS running",
+  "description": "Libre replacement for JavaScript blocked by GNU LibreJS on sumofus.org",
   "content_scripts": [
     {
       "matches": ["*://www.sumofus.org/"],
